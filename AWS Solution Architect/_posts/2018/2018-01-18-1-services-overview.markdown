@@ -155,7 +155,7 @@ Visibility into your AWS account activity is a** key aspect of security and oper
 ## Service Group: Mobile services
 
 - **Mobile HUB** enables mobile apps to access AWS services
-- **** pusches notifications to mobile users
+- **Pinpoint** pushes notifications to mobile users
 - **AppSync** automatically updates the data in web and mobile applications in real time, and updates data for offline users as soon as they reconnect. AppSync makes it easy to build collaborative mobile and web applications that deliver responsive, collaborative user experiences.
 - **DeviceFarm** app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time.
 - **Mobile Analytics**
@@ -175,7 +175,7 @@ Visibility into your AWS account activity is a** key aspect of security and oper
 
 - **Amazon Connect** is a self-service, cloud-based contact center service that makes it easy for any business to deliver better customer service at lower cost. The self-service graphical interface in Amazon Connect makes it easy for non-technical users to design contact flows, manage agents, and track performance metrics – no specialized skills required
 - **Email service** cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails.
-- **** makes it easy to engage your customers by tracking the ways in which they interact with your applications. You can then use this information to create segments based on customer attributes and behaviors, and to communicate with those customers using the channels they prefer, including email, SMS and mobile push. Once the customer conversation has begun, Amazon  collects metrics that help you better understand the impact of your communications. You can use these insights to improve the effectiveness of your future campaigns.
+- **Pinpoint** makes it easy to engage your customers by tracking the ways in which they interact with your applications. You can then use this information to create segments based on customer attributes and behaviors, and to communicate with those customers using the channels they prefer, including email, SMS and mobile push. Once the customer conversation has begun, Amazon  collects metrics that help you better understand the impact of your communications. You can use these insights to improve the effectiveness of your future campaigns.
 
 ## Service Group: Business productivity
 
