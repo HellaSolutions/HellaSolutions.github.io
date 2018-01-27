@@ -1,4 +1,4 @@
----
+__---
 layout: "post"
 title: "1 AWS Services Overview"
 date: "2018-01-18 11:43"
@@ -113,7 +113,7 @@ Visibility into your AWS account activity is a** key aspect of security and oper
 
 ## Service Group: Machine Learning
 
-- <span style="color:black;background-color:#FFF8DC">Media Live</span> is a fully managed machine learning service. With Amazon SageMaker, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment.
+- <span style="color:black;background-color:#FFF8DC">SageMaker</span> is a fully managed machine learning service. With Amazon SageMaker, data scientists and developers can quickly and easily build and train machine learning models, and then directly deploy them into a production-ready hosted environment.
 - <span style="color:black;background-color:#FFF8DC">Comprehend</span> is a continuously-trained natural language processing service. It’s free to try and easy to get started analyzing unstructured text like customer reviews and news articles.
 - <span style="color:black;background-color:#FFF8DC">Deep Lens</span> is a deep leaning enabled video camera
 - <span style="color:black;background-color:#FFF8DC">Lex</span> is a service for building conversational interfaces using voice and text
@@ -123,6 +123,7 @@ Visibility into your AWS account activity is a** key aspect of security and oper
 - <span style="color:black;background-color:#FFF8DC">Translate</span> translation service
 
 ## Service Group: Analytics
+
 - <span style="color:black;background-color:#FFF8DC">Athena</span> is a fast, cost-effective, serverless interactive query service that makes it easy to analyze **petabytes of data in S3** with no data warehouses or clusters to manage
 - <span style="color:black;background-color:#FFF8DC">EMR (Elastic MapReduce)</span> analyze and process vast amounts of data. It does this by distributing the computational work across an Haddop managed cluster of virtual servers running in the Amazon cloud.
 - <span style="color:black;background-color:#FFF8DC">CloudSearch</span>  search service for large collections of data such as web pages, document files, forum posts, or product information. You can quickly add search capabilities without having to become a search expert or worry about hardware provisioning, setup, and maintenance. As your volume of data and traffic fluctuates, CloudSearch scales to meet your needs.
@@ -135,3 +136,70 @@ Visibility into your AWS account activity is a** key aspect of security and oper
 -  <span style="color:black;background-color:#FFF8DC">QuickSight</span> Amazon Business Intelligence tool
 -  <span style="color:black;background-color:#FFF8DC">Pipeline</span> service that that automates the movement and transformation of data. With AWS Data Pipeline, you can define data-driven workflows, so that tasks can be dependent on the successful completion of previous tasks. You define the parameters of your data transformations and AWS Data Pipeline enforces the logic that you've set up.
 -  <span style="color:black;background-color:#FFF8DC">Glue</span> fully managed ETL (extract, transform, and load) service that makes it simple and cost-effective to categorize your data, clean it, enrich it, and move it reliably between various data stores.
+
+## Service Group: Security, Identity, Compliance
+
+-  <span style="color:black;background-color:#FFF8DC">IAM (Identity access management)</span> securely control access to AWS resources. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources.
+- <span style="color:black;background-color:#FFF8DC">Cognito</span> let users to sign up and sign in to your apps, enables **federate identities** from social identity providers, secure access to AWS resources and **synchronize data across multiple devices, platforms, and applications**.
+- <span style="color:black;background-color:#FFF8DC">GuardDuty</span> is a continuous security monitoring service. GuardDuty can help to identify unexpected and potentially unauthorized or malicious activity in your AWS environment.
+- <span style="color:black;background-color:#FFF8DC">Inspector</span> is an **automated security assessment** service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for vulnerabilities or deviations from best practices. After performing an assessment, Amazon Inspector produces a **detailed list of security findings prioritized by level of severity**. These findings can be reviewed directly or as part of detailed assessment reports which are available via the Amazon Inspector console or API.
+- <span style="color:black;background-color:#FFF8DC">Macie</span> is a security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS. Amazon Macie recognizes sensitive data such as personally identifiable information (PII) or intellectual property, and provides you with dashboards and alerts that give visibility into how this data is being accessed or moved
+- <span style="color:black;background-color:#FFF8DC">Certificate Manager</span> SSL certificate provider (free if you register on Route53)
+- <span style="color:black;background-color:#FFF8DC">CloudHSM</span> cloud-based **hardware security module** (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud
+- <span style="color:black;background-color:#FFF8DC">DirectoryService</span> for **Microsoft Active Directory**, also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud
+- <span style="color:black;background-color:#FFF8DC">Shield</span> two components:
+  - **WAF** is a web application firewall service that helps protect your web apps from common exploits that could affect app availability, compromise security, or consume excessive resources
+  -  **Shield** provides expanded **DDoS attack** protection for your AWS resources. Get 24/7 support from our DDoS response team and detailed visibility into DDoS events
+  - <span style="color:black;background-color:#FFF8DC">SSO</span> allows WS accounts and any business applications that support SSO using **SAML 2.0**. Users simply sign in once to a personalized user portal using their directory credentials and can then access all their assigned applications without additional sign-in prompts
+
+## Service Group: Mobile services
+
+- <span style="color:black;background-color:#FFF8DC">Mobile HUB</span> enables mobile apps to access AWS services
+- <span style="color:black;background-color:#FFF8DC">Pinpoint</span> pusches notifications to mobile users
+- <span style="color:black;background-color:#FFF8DC">AppSync</span> automatically updates the data in web and mobile applications in real time, and updates data for offline users as soon as they reconnect. AppSync makes it easy to build collaborative mobile and web applications that deliver responsive, collaborative user experiences.
+- <span style="color:black;background-color:#FFF8DC">DeviceFarm</span> app testing service that lets you test and interact with your Android, iOS, and web apps on many devices at once, or reproduce issues on a device in real time.
+- <span style="color:black;background-color:#FFF8DC">Mobile Analytics</span>
+
+## Service Group: Augmented Reality / Virtual Reality
+
+  - <span style="color:black;background-color:#FFF8DC">Sumerian</span> lets you create and run virtual reality (VR), augmented reality (AR), and 3D applications quickly and easily without requiring any specialized programming or 3D graphics expertise.
+
+## Service Group: Application integration
+
+- <span style="color:black;background-color:#FFF8DC">Step Functions</span> **coordinates the components of distributed applications** as a series of steps in a **visual workflow**. You can quickly build and run state machines to execute the steps of your application in a reliable and scalable fashion.
+- <span style="color:black;background-color:#FFF8DC">Amazon MQ</span> managed message broker service for **Apache ActiveMQ** that makes it easy to set up and operate message brokers in the cloud
+- <span style="color:black;background-color:#FFF8DC">Amazon Simple Queue Service (SQS)</span> message queuing service that makes it easy to decouple and scale microservices, distributed systems, and **serverless** applications
+- <span style="color:black;background-color:#FFF8DC">Amazon Simple Notification Service (SNS)</span> fully managed **pub/sub messaging** and **mobile notifications service** for coordinating the delivery of messages to subscribing endpoints and clients
+
+## Service Group: Customer Engagement
+
+- <span style="color:black;background-color:#FFF8DC">Amazon Connect</span> is a self-service, cloud-based contact center service that makes it easy for any business to deliver better customer service at lower cost. The self-service graphical interface in Amazon Connect makes it easy for non-technical users to design contact flows, manage agents, and track performance metrics – no specialized skills required
+- <span style="color:black;background-color:#FFF8DC">Email service</span> cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails.
+- <span style="color:black;background-color:#FFF8DC">Pinpoint</span> makes it easy to engage your customers by tracking the ways in which they interact with your applications. You can then use this information to create segments based on customer attributes and behaviors, and to communicate with those customers using the channels they prefer, including email, SMS and mobile push. Once the customer conversation has begun, Amazon Pinpoint collects metrics that help you better understand the impact of your communications. You can use these insights to improve the effectiveness of your future campaigns.
+
+## Service Group: Business productivity
+
+- <span style="color:black;background-color:#FFF8DC">Alexa</span> voice controlled resource planner
+- <span style="color:black;background-color:#FFF8DC">Chime</span> communications service that transforms online meetings with a secure, easy-to-use application that you can trust. Amazon Chime works seamlessly across your devices so that you can stay connected.
+- <span style="color:black;background-color:#FFF8DC">WorkDocs</span> secure enterprise file storage and sharing
+- <span style="color:black;background-color:#FFF8DC">WorkMail</span> managed email and calendaring service that offers strong security controls and support for existing desktop and mobile clients
+
+## Service Group: desktop
+
+- <span style="color:black;background-color:#FFF8DC">Workspaces</span> provides users with a desktop experience in the cloud that can be accessed from any connected device
+- <span style="color:black;background-color:#FFF8DC">AppStreams</span> managed, secure application streaming service that allows you to stream desktop applications from AWS to a web browser
+
+## Service Group: Internet Of Things
+
+- <span style="color:black;background-color:#FFF8DC">AWS IoT</span> cloud platform that lets connected (millions of) devices - cars, light bulbs, sensor grids, and more easily and securely interact with cloud applications and other devices.
+- <span style="color:black;background-color:#FFF8DC">IoT Analytics</span> fully-managed service that makes it easy to run sophisticated analytics on massive volumes of IoT data without having to worry about all the cost and complexity typically required to build your own IoT analytics platform. It is the easiest way to run analytics on IoT data and get insights to make better and more accurate decisions for IoT applications and machine learning use cases.
+IoT data is highly unstructured which makes it difficult to analyze with traditional analytics and business intelligence tools that are designed to process structured data. IoT data comes from devices that often record fairly noisy processes (such as temperature, motion, or sound), and as a result the data from these devices can frequently have significant gaps, corrupted messages, and false readings that must be cleaned up before analysis can occur. Also, IoT data is often only meaningful in the context of other data from external sources. For example, to determine when to water their crops, vineyard irrigation systems often enrich humidity sensor data with data on rainfall at the vineyard, allowing them to be more efficient with water usage while maximizing their harvest yield.
+AWS IoT Analytics automates each of the difficult steps that are required to analyze data from IoT devices. IoT Analytics filters, transforms, and enriches IoT data before storing it in a time-series data store for analysis. You can setup the service to collect only the data you need from your devices, apply mathematical transforms to process the data, and enrich the data with device-specific metadata such as device type and location before storing the processed data. Then, you can analyze your data by running queries using the built-in SQL query engine, or perform more complex analytics and machine learning inference. IoT Analytics makes it easy to get started with machine learning by including pre-built models for common IoT use cases so you can quickly answer questions like which devices are about to fail or which customers are at risk of abandoning their wearable devices.
+AWS IoT Analytics is fully managed and scales automatically to support up to petabytes of IoT data. With IoT Analytics, you can analyze data from millions of devices and build fast, responsive IoT applications without managing hardware or infrastructure.
+- <span style="color:black;background-color:#FFF8DC">IoT device Management</span> registry that helps you manage things. A thing is a representation of a specific device or logical entity. It can be a physical device or sensor (for example, a light bulb or a switch on a wall). It can also be a logical entity like an instance of an application or physical entity that does not connect to AWS IoT but is related to other devices that do (for example, a car that has engine sensors or a control panel).
+- <span style="color:black;background-color:#FFF8DC">FreeRTOS</span> **Real time operating system** for microcontrollers that makes it easy to securely connect IoT devices locally or to the cloud. You can use a predefined configuration or create your own to get started.
+- <span style="color:black;background-color:#FFF8DC">Greengrass</span> lets your devices process the data they generate locally, while still taking advantage of AWS services when an internet connection is available
+
+## Service Group: Game development
+
+- <p style="color:black;background-color:#FFF8DC">GameLift</p> managed service for hosting dedicated game servers. With GameLift you can host servers, track game availability, automatically scale capacity, and deploy updates without taking your game offline.
